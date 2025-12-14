@@ -19,7 +19,6 @@
 ### Step 1: Setup
 
 ```bash
-cd Ledger_Recons_engine
 
 # Run setup script (installs dependencies and creates virtual environment)
 ./scripts/setup.sh
