@@ -16,13 +16,36 @@
 
 ## Setup Instructions
 
+### Prerequisites
+
+- Python 3.11 or higher
+- [uv](https://github.com/astral-sh/uv) package manager
+
+Install uv if you haven't already:
+
+```bash
+# macOS/Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Or with pip
+pip install uv
+```
+
 ### Step 1: Setup
 
 ```bash
+# Clone/navigate to the project directory
+cd Asg2-streamsight
 
 # Run setup script (installs dependencies and creates virtual environment)
 ./scripts/setup.sh
 ```
+
+The setup script will:
+
+- Create a virtual environment in `.venv/`
+- Install all required dependencies
+- Install the package in editable mode
 
 ### Step 2: Prepare Your Data
 
@@ -206,5 +229,79 @@ results/
 
 # Run specific test file
 ./scripts/test.sh tests/test_core.py
+
+# Run tests without coverage
+./scripts/test.sh --no-cov
+
+# Run tests in verbose mode
+./scripts/test.sh -v
 ```
 
+### Test Coverage
+
+The project maintains high test coverage:
+
+- **48 test cases** covering all major components
+- **75%+ code coverage** across the codebase
+- Unit tests, integration tests, and property-based tests
+
+---
+
+## Troubleshooting
+
+### Issue: ModuleNotFoundError: No module named 'streamsight'
+
+If you see this error when running tests or scripts:
+
+```
+ImportError while loading conftest
+E   ModuleNotFoundError: No module named 'streamsight'
+```
+
+**Solution:** Your virtual environment may be corrupted or pointing to the wrong Python interpreter. Recreate it:
+
+```bash
+# Remove the corrupted virtual environment
+rm -rf .venv
+
+# Clear Python caches
+find . -type d -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true
+find . -type d -name ".pytest_cache" -exec rm -rf {} + 2>/dev/null || true
+find . -name "*.pyc" -delete 2>/dev/null || true
+
+# Recreate the virtual environment
+./scripts/setup.sh
+
+# Run tests to verify
+./scripts/test.sh
+```
+
+### Issue: Bad interpreter error
+
+If you see:
+
+```
+bad interpreter: No such file or directory
+```
+
+This means your `.venv` directory has references to a different project or moved Python installation. Follow the steps above to recreate the virtual environment.
+
+### Issue: PYTHONPATH conflicts
+
+If you have `PYTHONPATH` set in your shell configuration pointing to other projects, it may cause import conflicts. The test script automatically clears `PYTHONPATH`, but if you encounter issues:
+
+```bash
+# Temporarily unset PYTHONPATH
+unset PYTHONPATH
+
+# Run your command
+./scripts/test.sh
+```
+
+### Issue: Permission denied when running scripts
+
+Make sure all scripts are executable:
+
+```bash
+chmod +x scripts/*.sh
+```

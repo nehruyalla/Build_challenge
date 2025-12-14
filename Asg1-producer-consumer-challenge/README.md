@@ -62,6 +62,12 @@ python -m src.main
 
 ## Running Tests
 
+**Note**: Ensure you have installed dependencies first (see Setup section above). If you encounter `pytest: command not found`, install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
 Use the helper script:
 
 ```bash

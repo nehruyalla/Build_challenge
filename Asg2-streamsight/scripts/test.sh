@@ -37,10 +37,16 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
+# Clear PYTHONPATH to avoid conflicts with other projects
+unset PYTHONPATH
+
+# Add source directory to PYTHONPATH for tests
+export PYTHONPATH="${PWD}/src:${PYTHONPATH}"
+
 # Run tests
 echo "Running pytest..."
 echo ""
-uv run pytest $TEST_PATH $VERBOSE $COVERAGE
+.venv/bin/pytest $TEST_PATH $VERBOSE $COVERAGE
 
 echo ""
 echo "=========================================="
