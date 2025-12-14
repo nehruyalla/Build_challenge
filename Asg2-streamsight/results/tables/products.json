@@ -1,0 +1,76 @@
+{
+  "top_products": [
+    {
+      "stock_code": "DOT",
+      "description": "DOTCOM POSTAGE",
+      "revenue": "206245.48",
+      "quantity_sold": 707,
+      "transaction_count": 709
+    },
+    {
+      "stock_code": "22423",
+      "description": "REGENCY CAKESTAND 3 TIER",
+      "revenue": "164762.19",
+      "quantity_sold": 12980,
+      "transaction_count": 2203
+    },
+    {
+      "stock_code": "47566",
+      "description": "PARTY BUNTING",
+      "revenue": "98302.98",
+      "quantity_sold": 18022,
+      "transaction_count": 1727
+    },
+    {
+      "stock_code": "85123A",
+      "description": "CREAM HANGING HEART T-LIGHT HOLDER",
+      "revenue": "97894.50",
+      "quantity_sold": 38830,
+      "transaction_count": 2313
+    },
+    {
+      "stock_code": "85099B",
+      "description": "JUMBO BAG RED RETROSPOT",
+      "revenue": "92356.03",
+      "quantity_sold": 47363,
+      "transaction_count": 2159
+    },
+    {
+      "stock_code": "23084",
+      "description": "RABBIT NIGHT LIGHT",
+      "revenue": "66756.59",
+      "quantity_sold": 30314,
+      "transaction_count": 1057
+    },
+    {
+      "stock_code": "POST",
+      "description": "POSTAGE",
+      "revenue": "66230.64",
+      "quantity_sold": 3003,
+      "transaction_count": 1252
+    },
+    {
+      "stock_code": "22086",
+      "description": "PAPER CHAIN KIT 50'S CHRISTMAS",
+      "revenue": "63791.94",
+      "quantity_sold": 18902,
+      "transaction_count": 1210
+    },
+    {
+      "stock_code": "84879",
+      "description": "ASSORTED COLOUR BIRD ORNAMENT",
+      "revenue": "58959.73",
+      "quantity_sold": 36221,
+      "transaction_count": 1502
+    },
+    {
+      "stock_code": "79321",
+      "description": "CHILLI LIGHTS",
+      "revenue": "53768.06",
+      "quantity_sold": 10229,
+      "transaction_count": 679
+    }
+  ],
+  "total_product_count": 3958,
+  "total_revenue": "9747747.93"
+}

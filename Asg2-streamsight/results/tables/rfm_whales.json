@@ -1,0 +1,317 @@
+{
+  "total_customers": 4372,
+  "whale_count": 44,
+  "whale_revenue": "2483794.18",
+  "whale_revenue_share": 29.92499381158521,
+  "total_revenue": "8300065.81",
+  "whale_customers": [
+    {
+      "customer_id": "14646",
+      "recency_days": 1,
+      "frequency": 2085,
+      "monetary": "279489.02",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "18102",
+      "recency_days": 0,
+      "frequency": 433,
+      "monetary": "256438.49",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "17450",
+      "recency_days": 7,
+      "frequency": 351,
+      "monetary": "187482.17",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "14911",
+      "recency_days": 0,
+      "frequency": 5903,
+      "monetary": "132572.62",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "12415",
+      "recency_days": 23,
+      "frequency": 778,
+      "monetary": "123725.45",
+      "rfm_score": "455"
+    },
+    {
+      "customer_id": "14156",
+      "recency_days": 9,
+      "frequency": 1420,
+      "monetary": "113384.14",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "17511",
+      "recency_days": 2,
+      "frequency": 1076,
+      "monetary": "88125.38",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "16684",
+      "recency_days": 3,
+      "frequency": 281,
+      "monetary": "65892.08",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "13694",
+      "recency_days": 3,
+      "frequency": 585,
+      "monetary": "62653.10",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "15311",
+      "recency_days": 0,
+      "frequency": 2491,
+      "monetary": "59419.34",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "13089",
+      "recency_days": 2,
+      "frequency": 1857,
+      "monetary": "57385.88",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "14096",
+      "recency_days": 3,
+      "frequency": 5128,
+      "monetary": "57120.91",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "15061",
+      "recency_days": 3,
+      "frequency": 410,
+      "monetary": "54228.74",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "17949",
+      "recency_days": 0,
+      "frequency": 79,
+      "monetary": "52750.84",
+      "rfm_score": "545"
+    },
+    {
+      "customer_id": "15769",
+      "recency_days": 6,
+      "frequency": 147,
+      "monetary": "51823.72",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "16029",
+      "recency_days": 38,
+      "frequency": 274,
+      "monetary": "50992.61",
+      "rfm_score": "355"
+    },
+    {
+      "customer_id": "14298",
+      "recency_days": 2,
+      "frequency": 1640,
+      "monetary": "50862.44",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "14088",
+      "recency_days": 9,
+      "frequency": 590,
+      "monetary": "50415.49",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "17841",
+      "recency_days": 1,
+      "frequency": 7983,
+      "monetary": "40340.78",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "13798",
+      "recency_days": 0,
+      "frequency": 439,
+      "monetary": "36351.42",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "16422",
+      "recency_days": 16,
+      "frequency": 399,
+      "monetary": "33805.69",
+      "rfm_score": "455"
+    },
+    {
+      "customer_id": "12931",
+      "recency_days": 21,
+      "frequency": 102,
+      "monetary": "33462.81",
+      "rfm_score": "445"
+    },
+    {
+      "customer_id": "16013",
+      "recency_days": 3,
+      "frequency": 151,
+      "monetary": "33366.25",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "15838",
+      "recency_days": 10,
+      "frequency": 169,
+      "monetary": "33350.76",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "17389",
+      "recency_days": 0,
+      "frequency": 224,
+      "monetary": "31300.08",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "17404",
+      "recency_days": 3,
+      "frequency": 201,
+      "monetary": "30300.82",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "12748",
+      "recency_days": 0,
+      "frequency": 4642,
+      "monetary": "29072.10",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "13098",
+      "recency_days": 0,
+      "frequency": 605,
+      "monetary": "28658.88",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "13081",
+      "recency_days": 0,
+      "frequency": 1061,
+      "monetary": "27964.48",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "13408",
+      "recency_days": 1,
+      "frequency": 501,
+      "monetary": "27487.41",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "14680",
+      "recency_days": 24,
+      "frequency": 320,
+      "monetary": "26932.34",
+      "rfm_score": "455"
+    },
+    {
+      "customer_id": "17857",
+      "recency_days": 2,
+      "frequency": 56,
+      "monetary": "26763.34",
+      "rfm_score": "535"
+    },
+    {
+      "customer_id": "16333",
+      "recency_days": 7,
+      "frequency": 45,
+      "monetary": "26626.80",
+      "rfm_score": "535"
+    },
+    {
+      "customer_id": "13777",
+      "recency_days": 0,
+      "frequency": 219,
+      "monetary": "25748.35",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "15749",
+      "recency_days": 234,
+      "frequency": 15,
+      "monetary": "21535.90",
+      "rfm_score": "125"
+    },
+    {
+      "customer_id": "16210",
+      "recency_days": 1,
+      "frequency": 123,
+      "monetary": "21086.30",
+      "rfm_score": "545"
+    },
+    {
+      "customer_id": "12753",
+      "recency_days": 3,
+      "frequency": 230,
+      "monetary": "21024.01",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "17381",
+      "recency_days": 8,
+      "frequency": 110,
+      "monetary": "20272.43",
+      "rfm_score": "545"
+    },
+    {
+      "customer_id": "17675",
+      "recency_days": 0,
+      "frequency": 721,
+      "monetary": "20098.10",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "15039",
+      "recency_days": 9,
+      "frequency": 1508,
+      "monetary": "19786.44",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "12731",
+      "recency_days": 23,
+      "frequency": 277,
+      "monetary": "18793.41",
+      "rfm_score": "455"
+    },
+    {
+      "customer_id": "12471",
+      "recency_days": 1,
+      "frequency": 531,
+      "monetary": "18740.92",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "15159",
+      "recency_days": 1,
+      "frequency": 720,
+      "monetary": "18573.68",
+      "rfm_score": "555"
+    },
+    {
+      "customer_id": "12678",
+      "recency_days": 41,
+      "frequency": 167,
+      "monetary": "17588.26",
+      "rfm_score": "355"
+    }
+  ]
+}

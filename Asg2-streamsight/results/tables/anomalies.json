@@ -1,0 +1,608 @@
+{
+  "total_transactions": 540455,
+  "anomaly_count": 393,
+  "mean_transaction_value": 21.436791499754758,
+  "stddev_transaction_value": 379.14156341177505,
+  "anomalies": [
+    {
+      "invoice_no": "581483",
+      "customer_id": "16446",
+      "amount": "168469.60",
+      "z_score": 444.28830670182526
+    },
+    {
+      "invoice_no": "C581484",
+      "customer_id": "16446",
+      "amount": "-168469.60",
+      "z_score": 444.28830670182526
+    },
+    {
+      "invoice_no": "541431",
+      "customer_id": "12346",
+      "amount": "77183.60",
+      "z_score": 203.51808046087677
+    },
+    {
+      "invoice_no": "C541433",
+      "customer_id": "12346",
+      "amount": "-77183.60",
+      "z_score": 203.51808046087677
+    },
+    {
+      "invoice_no": "556444",
+      "customer_id": "15098",
+      "amount": "38970.00",
+      "z_score": 102.72828665370908
+    },
+    {
+      "invoice_no": "C556445",
+      "customer_id": "15098",
+      "amount": "-38970.00",
+      "z_score": 102.72828665370908
+    },
+    {
+      "invoice_no": "C580605",
+      "customer_id": null,
+      "amount": "-17836.46",
+      "z_score": 46.98778748546712
+    },
+    {
+      "invoice_no": "C540117",
+      "customer_id": null,
+      "amount": "-16888.02",
+      "z_score": 44.48624164737623
+    },
+    {
+      "invoice_no": "C540118",
+      "customer_id": null,
+      "amount": "-16453.71",
+      "z_score": 43.340732840344415
+    },
+    {
+      "invoice_no": "C537630",
+      "customer_id": null,
+      "amount": "-13541.33",
+      "z_score": 35.65922207747154
+    },
+    {
+      "invoice_no": "537632",
+      "customer_id": null,
+      "amount": "13541.33",
+      "z_score": 35.65922207747154
+    },
+    {
+      "invoice_no": "C537651",
+      "customer_id": null,
+      "amount": "-13541.33",
+      "z_score": 35.65922207747154
+    },
+    {
+      "invoice_no": "C537644",
+      "customer_id": null,
+      "amount": "-13474.79",
+      "z_score": 35.48372034824611
+    },
+    {
+      "invoice_no": "C580604",
+      "customer_id": null,
+      "amount": "-11586.50",
+      "z_score": 30.50328511712063
+    },
+    {
+      "invoice_no": "A563185",
+      "customer_id": null,
+      "amount": "11062.06",
+      "z_score": 29.120055076919467
+    },
+    {
+      "invoice_no": "A563186",
+      "customer_id": null,
+      "amount": "-11062.06",
+      "z_score": 29.120055076919467
+    },
+    {
+      "invoice_no": "A563187",
+      "customer_id": null,
+      "amount": "-11062.06",
+      "z_score": 29.120055076919467
+    },
+    {
+      "invoice_no": "C573079",
+      "customer_id": "12536",
+      "amount": "-8322.12",
+      "z_score": 21.893361239018542
+    },
+    {
+      "invoice_no": "C574902",
+      "customer_id": null,
+      "amount": "-8286.22",
+      "z_score": 21.798673651414195
+    },
+    {
+      "invoice_no": "C551685",
+      "customer_id": "16029",
+      "amount": "-8142.75",
+      "z_score": 21.420266180840517
+    },
+    {
+      "invoice_no": "551697",
+      "customer_id": "16029",
+      "amount": "8142.75",
+      "z_score": 21.420266180840517
+    },
+    {
+      "invoice_no": "C566899",
+      "customer_id": null,
+      "amount": "-7427.97",
+      "z_score": 19.5350072987282
+    },
+    {
+      "invoice_no": "567423",
+      "customer_id": "17450",
+      "amount": "7144.72",
+      "z_score": 18.78792487006719
+    },
+    {
+      "invoice_no": "C553355",
+      "customer_id": null,
+      "amount": "-7006.83",
+      "z_score": 18.4242348573997
+    },
+    {
+      "invoice_no": "C551699",
+      "customer_id": "16029",
+      "amount": "-6930.00",
+      "z_score": 18.22159286977737
+    },
+    {
+      "invoice_no": "C562086",
+      "customer_id": null,
+      "amount": "-6721.37",
+      "z_score": 17.67132347139592
+    },
+    {
+      "invoice_no": "C537652",
+      "customer_id": null,
+      "amount": "-6706.71",
+      "z_score": 17.63265717517643
+    },
+    {
+      "invoice_no": "C564341",
+      "customer_id": null,
+      "amount": "-6662.51",
+      "z_score": 17.516078028320944
+    },
+    {
+      "invoice_no": "540815",
+      "customer_id": "15749",
+      "amount": "6539.40",
+      "z_score": 17.191370816344044
+    },
+    {
+      "invoice_no": "C550456",
+      "customer_id": "15749",
+      "amount": "-6539.40",
+      "z_score": 17.191370816344044
+    },
+    {
+      "invoice_no": "550461",
+      "customer_id": "15749",
+      "amount": "6539.40",
+      "z_score": 17.191370816344044
+    },
+    {
+      "invoice_no": "C559917",
+      "customer_id": null,
+      "amount": "-6497.47",
+      "z_score": 17.080778879066884
+    },
+    {
+      "invoice_no": "C570025",
+      "customer_id": null,
+      "amount": "-5942.57",
+      "z_score": 15.617209453951288
+    },
+    {
+      "invoice_no": "C573549",
+      "customer_id": null,
+      "amount": "-5942.57",
+      "z_score": 15.617209453951288
+    },
+    {
+      "invoice_no": "C574897",
+      "customer_id": null,
+      "amount": "-5877.18",
+      "z_score": 15.444740892573908
+    },
+    {
+      "invoice_no": "C553354",
+      "customer_id": null,
+      "amount": "-5876.40",
+      "z_score": 15.44268361351175
+    },
+    {
+      "invoice_no": "C558036",
+      "customer_id": null,
+      "amount": "-5791.18",
+      "z_score": 15.217912688284953
+    },
+    {
+      "invoice_no": "C546987",
+      "customer_id": null,
+      "amount": "-5693.05",
+      "z_score": 14.959091157042218
+    },
+    {
+      "invoice_no": "C544587",
+      "customer_id": null,
+      "amount": "-5575.28",
+      "z_score": 14.648468394029306
+    },
+    {
+      "invoice_no": "C566889",
+      "customer_id": null,
+      "amount": "-5522.14",
+      "z_score": 14.508309664076807
+    },
+    {
+      "invoice_no": "C537647",
+      "customer_id": null,
+      "amount": "-5519.25",
+      "z_score": 14.500687181397794
+    },
+    {
+      "invoice_no": "C544589",
+      "customer_id": null,
+      "amount": "-5258.77",
+      "z_score": 13.813661476128178
+    },
+    {
+      "invoice_no": "C546989",
+      "customer_id": null,
+      "amount": "-5225.03",
+      "z_score": 13.724670969003649
+    },
+    {
+      "invoice_no": "573003",
+      "customer_id": "14646",
+      "amount": "4992.00",
+      "z_score": 13.110045661498356
+    },
+    {
+      "invoice_no": "540815",
+      "customer_id": "15749",
+      "amount": "4921.50",
+      "z_score": 12.924099284726596
+    },
+    {
+      "invoice_no": "C550456",
+      "customer_id": "15749",
+      "amount": "-4921.50",
+      "z_score": 12.924099284726596
+    },
+    {
+      "invoice_no": "576365",
+      "customer_id": null,
+      "amount": "4781.60",
+      "z_score": 12.555107822168168
+    },
+    {
+      "invoice_no": "550461",
+      "customer_id": "15749",
+      "amount": "4632.00",
+      "z_score": 12.160532248195752
+    },
+    {
+      "invoice_no": "C562062",
+      "customer_id": null,
+      "amount": "-4575.64",
+      "z_score": 12.011880648268713
+    },
+    {
+      "invoice_no": "C558037",
+      "customer_id": null,
+      "amount": "-4534.24",
+      "z_score": 11.90268660573891
+    },
+    {
+      "invoice_no": "C564340",
+      "customer_id": null,
+      "amount": "-4527.65",
+      "z_score": 11.885305235200954
+    },
+    {
+      "invoice_no": "540818",
+      "customer_id": "15749",
+      "amount": "4522.50",
+      "z_score": 11.87172191831621
+    },
+    {
+      "invoice_no": "C550456",
+      "customer_id": "15749",
+      "amount": "-4522.50",
+      "z_score": 11.87172191831621
+    },
+    {
+      "invoice_no": "562955",
+      "customer_id": null,
+      "amount": "4505.17",
+      "z_score": 11.826013397614727
+    },
+    {
+      "invoice_no": "558526",
+      "customer_id": "17949",
+      "amount": "4401.00",
+      "z_score": 11.551261141326583
+    },
+    {
+      "invoice_no": "C559915",
+      "customer_id": null,
+      "amount": "-4383.62",
+      "z_score": 11.505420743762139
+    },
+    {
+      "invoice_no": "C560372",
+      "customer_id": "17448",
+      "amount": "-4287.63",
+      "z_score": 11.252243542254037
+    },
+    {
+      "invoice_no": "560373",
+      "customer_id": null,
+      "amount": "4287.63",
+      "z_score": 11.252243542254037
+    },
+    {
+      "invoice_no": "550461",
+      "customer_id": "15749",
+      "amount": "4254.50",
+      "z_score": 11.164861932857606
+    },
+    {
+      "invoice_no": "562439",
+      "customer_id": "12931",
+      "amount": "4176.00",
+      "z_score": 10.957815258012454
+    },
+    {
+      "invoice_no": "573077",
+      "customer_id": "12536",
+      "amount": "4161.06",
+      "z_score": 10.918410451360398
+    },
+    {
+      "invoice_no": "573080",
+      "customer_id": "12536",
+      "amount": "4161.06",
+      "z_score": 10.918410451360398
+    },
+    {
+      "invoice_no": "540689",
+      "customer_id": "17450",
+      "amount": "4121.64",
+      "z_score": 10.814438732603762
+    },
+    {
+      "invoice_no": "C571750",
+      "customer_id": "12744",
+      "amount": "-3949.32",
+      "z_score": 10.359938312102916
+    },
+    {
+      "invoice_no": "571751",
+      "customer_id": "12744",
+      "amount": "3949.32",
+      "z_score": 10.359938312102916
+    },
+    {
+      "invoice_no": "581115",
+      "customer_id": "15195",
+      "amount": "3861.00",
+      "z_score": 10.126991021372676
+    },
+    {
+      "invoice_no": "537659",
+      "customer_id": "18102",
+      "amount": "3828.00",
+      "z_score": 10.039952291819938
+    },
+    {
+      "invoice_no": "567423",
+      "customer_id": "17450",
+      "amount": "3825.36",
+      "z_score": 10.03298919345572
+    },
+    {
+      "invoice_no": "C567527",
+      "customer_id": "17450",
+      "amount": "-3825.36",
+      "z_score": 10.03298919345572
+    },
+    {
+      "invoice_no": "537899",
+      "customer_id": "12755",
+      "amount": "3794.40",
+      "z_score": 9.951331039911695
+    },
+    {
+      "invoice_no": "540815",
+      "customer_id": "15749",
+      "amount": "3700.00",
+      "z_score": 9.70234752264568
+    },
+    {
+      "invoice_no": "C550456",
+      "customer_id": "15749",
+      "amount": "-3700.00",
+      "z_score": 9.70234752264568
+    },
+    {
+      "invoice_no": "579498",
+      "customer_id": "12798",
+      "amount": "3651.60",
+      "z_score": 9.574690719301662
+    },
+    {
+      "invoice_no": "567423",
+      "customer_id": "17450",
+      "amount": "3621.00",
+      "z_score": 9.49398207917094
+    },
+    {
+      "invoice_no": "574941",
+      "customer_id": null,
+      "amount": "3549.00",
+      "z_score": 9.30407939651042
+    },
+    {
+      "invoice_no": "550461",
+      "customer_id": "15749",
+      "amount": "3380.00",
+      "z_score": 8.858335599710031
+    },
+    {
+      "invoice_no": "574941",
+      "customer_id": null,
+      "amount": "3322.10",
+      "z_score": 8.705622192403862
+    },
+    {
+      "invoice_no": "540818",
+      "customer_id": "15749",
+      "amount": "3315.00",
+      "z_score": 8.686895677863728
+    },
+    {
+      "invoice_no": "C550456",
+      "customer_id": "15749",
+      "amount": "-3315.00",
+      "z_score": 8.686895677863728
+    },
+    {
+      "invoice_no": "572209",
+      "customer_id": "18102",
+      "amount": "3285.00",
+      "z_score": 8.607769560088512
+    },
+    {
+      "invoice_no": "572209",
+      "customer_id": "18102",
+      "amount": "3285.00",
+      "z_score": 8.607769560088512
+    },
+    {
+      "invoice_no": "572209",
+      "customer_id": "18102",
+      "amount": "3285.00",
+      "z_score": 8.607769560088512
+    },
+    {
+      "invoice_no": "572209",
+      "customer_id": "18102",
+      "amount": "3285.00",
+      "z_score": 8.607769560088512
+    },
+    {
+      "invoice_no": "572209",
+      "customer_id": "18102",
+      "amount": "3285.00",
+      "z_score": 8.607769560088512
+    },
+    {
+      "invoice_no": "572209",
+      "customer_id": "18102",
+      "amount": "3285.00",
+      "z_score": 8.607769560088512
+    },
+    {
+      "invoice_no": "540689",
+      "customer_id": "17450",
+      "amount": "3272.40",
+      "z_score": 8.57453659062292
+    },
+    {
+      "invoice_no": "581375",
+      "customer_id": "16210",
+      "amount": "3254.40",
+      "z_score": 8.52706091995779
+    },
+    {
+      "invoice_no": "543378",
+      "customer_id": "18102",
+      "amount": "3215.52",
+      "z_score": 8.42451347132111
+    },
+    {
+      "invoice_no": "543379",
+      "customer_id": "18102",
+      "amount": "3215.52",
+      "z_score": 8.42451347132111
+    },
+    {
+      "invoice_no": "544612",
+      "customer_id": "18087",
+      "amount": "3202.92",
+      "z_score": 8.391280501855517
+    },
+    {
+      "invoice_no": "574293",
+      "customer_id": "17450",
+      "amount": "3174.40",
+      "z_score": 8.316057939223878
+    },
+    {
+      "invoice_no": "567423",
+      "customer_id": "17450",
+      "amount": "3170.16",
+      "z_score": 8.30487478124498
+    },
+    {
+      "invoice_no": "554366",
+      "customer_id": "17450",
+      "amount": "3160.08",
+      "z_score": 8.278288405672507
+    },
+    {
+      "invoice_no": "C562647",
+      "customer_id": "15502",
+      "amount": "-3155.95",
+      "z_score": 8.26739537679212
+    },
+    {
+      "invoice_no": "569382",
+      "customer_id": "15502",
+      "amount": "3155.95",
+      "z_score": 8.26739537679212
+    },
+    {
+      "invoice_no": "561633",
+      "customer_id": "17949",
+      "amount": "3129.60",
+      "z_score": 8.197896270012887
+    },
+    {
+      "invoice_no": "574941",
+      "customer_id": null,
+      "amount": "3108.60",
+      "z_score": 8.142507987570236
+    },
+    {
+      "invoice_no": "554868",
+      "customer_id": "13135",
+      "amount": "3096.00",
+      "z_score": 8.109275018104645
+    },
+    {
+      "invoice_no": "C560647",
+      "customer_id": "18102",
+      "amount": "-3060.60",
+      "z_score": 8.015906199129889
+    },
+    {
+      "invoice_no": "567381",
+      "customer_id": "17450",
+      "amount": "3035.52",
+      "z_score": 7.949756764669807
+    }
+  ]
+}

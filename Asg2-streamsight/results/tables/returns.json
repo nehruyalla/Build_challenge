@@ -1,0 +1,18 @@
+{
+  "total_transactions": 540455,
+  "return_transactions": 9762,
+  "return_rate": 1.8062558399866777,
+  "return_revenue_impact": "-896812.49",
+  "top_returned_products": {
+    "M": 244,
+    "22423": 184,
+    "POST": 126,
+    "22960": 87,
+    "D": 77,
+    "22720": 74,
+    "S": 61,
+    "21232": 61,
+    "22699": 54,
+    "22197": 50
+  }
+}
